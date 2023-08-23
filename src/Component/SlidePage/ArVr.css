@@ -1,0 +1,129 @@
+.Slider{
+    margin-top: 100px;
+
+}
+
+.bg11 {
+    /* background: rgb(183, 238, 238); */
+    background: linear-gradient(90deg, rgb(238, 156, 171) 30%, #8a8fe1 100%, rgb(208, 86, 86) 100%);
+    margin-top: -45px;
+    height: 200px;
+    width: 78rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px #000000ee;
+    /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .bg11 {
+        width: 100%; /* Change the width to 100% for mobile devices */
+        margin: 0; /* Remove margins for mobile devices or adjust as needed */
+        border-radius: 0; /* Remove border-radius for mobile devices or adjust as needed */
+    }
+}
+
+.p{
+    font-size: medium;
+}
+
+.arvr  {
+    margin-top: 12rem;
+    height: 200px;
+    width: 600px;
+    border-bottom: 2px solid var(--color-gray-400);
+    margin-left: 7rem;
+}
+
+
+.about__section-image {
+
+    
+    height: 250px;
+    
+    overflow: hidden;
+    
+    transition: var(--transition);
+}
+
+.about__section-image:nth-child(2) {
+
+}
+
+.about__section-image:hover {
+    
+}
+
+.about__section-content h1 {
+    margin-bottom: 2rem;
+}
+
+.about__section-content p {
+    margin-bottom : 1rem;
+}
+
+.about__story-container, .about__mission-container
+ {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+    margin-top: 30px;
+}
+
+.about__vision-container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+}
+
+/******************** MEDIA QUERIES STYLES(medium screen) ********************/
+
+@media screen and (max-width: 1024px) {   
+    .about__section-image {
+        width: 60%;
+    }
+
+    .about__section-content h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    .about__story-container, 
+    .about__vision-container,
+    .about__mission-container{
+        grid-template-columns: 1fr;
+    }
+
+    .about__vision
+    .about__section-image {
+        grid-row: 1;
+    }
+}
+
+/******************** MEDIA QUERIES STYLES(small screen) ********************/
+@media screen and (max-width: 600px) {
+    .about__section-image {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .about__story-container,
+    .about__vision-container,
+    .about__mission-container {
+        gap: 2rem;
+    }
+}
+
+.bg1 {
+    height: 30px;
+    margin-top: 5.5rem;
+    width: auto;
+    /* background: linear-gradient(90deg,orange 0%, #efd5ff 100%); */
+}
+
+.navbutton1{
+    color: rgb(116, 115, 115);
+    margin-inline-start: 25px;
+}

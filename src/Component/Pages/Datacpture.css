@@ -1,0 +1,52 @@
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  .barcode0 {
+    margin-top: 10rem;
+  }
+  .mobile-header {
+    margin-top: 15rem;
+  }
+}
+
+/* Styles for screens larger than 600px */
+@media (min-width: 601px) {
+  .barcode0 {
+    margin-top: 10rem;
+  }
+  .mobile-header {
+    margin-top: -22rem;
+  }
+}
+
+/* Common styles for all screen sizes */
+.barcode0 h5 {
+  text-underline-offset: 2px;
+  border-bottom: 2px solid red;
+}
+
+.lime {
+  background-color: antiquewhite;
+}
+
+.subheading {
+  background-color: aquamarine;
+}
+
+.sub1 {
+  color: red;
+}
+
+.heading1 h2 {
+  border-bottom: 2px solid red;
+  width: fit-content;
+}
+
+.section_mobile {
+  padding-top: 50px;
+}
+
+.section_mobile h3 {
+  border-bottom: 2px solid red;
+  width: fit-content;
+  color: wheat;
+}

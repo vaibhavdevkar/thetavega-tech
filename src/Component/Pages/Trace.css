@@ -1,0 +1,38 @@
+/* .topside h2{
+
+    margin-top: 6rem;
+    margin-left: 160px;
+   
+    
+} */
+
+.topside {
+    margin-left: 60px; 
+}
+
+.Hardware{
+    margin-top: 10rem;
+}
+
+.Hardware1{
+    margin-top: 7rem;
+}
+
+
+.topside2 h2{
+
+    margin-top: 6rem;
+    /* margin-left: 160px; */
+    margin-top: -8rem;
+    color: aliceblue;
+    
+}
+
+.topside2 {
+    margin-left: 60px; 
+    color: aliceblue;
+    /* margin-bottom: 70px; */
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    /* background: linear-gradient(to right, #a8c0ff, #3f2b96);  */
+    border-radius: 10px;
+}

@@ -1,0 +1,77 @@
+.container{
+    display:contents;
+    position: fixed;
+    
+
+}
+
+.bg0 {
+    
+    height: 30px;
+    margin-top: 5.5rem;
+    width: auto;
+    border-radius: 10px;
+    
+    margin-right: 20px;
+    
+    
+}
+
+.navbutton1{
+    color: black;
+    margin-inline-start: 25px;
+}
+
+
+
+.AB-text{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: -30%;
+    justify-content: center;
+ 
+}
+
+.AB-text h1 {
+    font-size: 45px;
+    color: black;
+    position: relative;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2%;
+    
+}
+
+.AB-text p{
+    font-weight: bold;
+    text-transform: inherit;
+    font-family: 'ITC Avant GardeStd Bold';  
+}
+
+.bg32{
+    margin-top: 6.5%;
+}
+
+.b1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.bg{
+    align-items: center;
+    margin-left: 22rem;
+    font-weight: bold;
+    text-transform: inherit;
+    
+}
+
+.paragraph{
+    /* margin-top: -6rem; */
+    font-weight:bold;
+    background-color: rgb(228, 234, 234);
+    text-decoration: transparent;
+}
+
